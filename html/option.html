@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../js/option.js"></script>
+  </head>
+  <body>
+    <div>
+      <p>UniCoe のオプションページです。</p>
+      <button id="resetButton">リセット</button>
+      <div style="margin-top: 20px;">
+        <label>ユニコエ port 番号</label><br>
+        <select id="portNumber">
+          <option value="42503">42503</option>
+          <option value="42504">42504</option>
+          <option value="42505">42505</option>
+          <option value="42506">42506</option>
+          <option value="42507">42507</option>
+          <option value="42508">42508</option>
+          <option value="42509">42509</option>
+          <option value="42510">42510</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <label>Pixivの読み上げ方式</label><br>
+        <select id="pixivType">
+          <option value="full-auto">オート</option>
+          <option value="manual">手動</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <label>ティラノスクリプトの読み上げ方式</label><br>
+        <select id="tyranoType">
+          <option value="full-auto">オート</option>
+          <option value="manual">手動</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <p>オート：読み上げが終わると次のページへ自動で移動します。</p>
+        <p>手動：読み上げの自動化を行いません。</p>
+      </div>
+      <div style="margin-top: 10px;">
+        <label>ティラノスクリプトのキャラクター名</label><br>
+        <select id="tyranoCharaType">
+          <option value="noUse">使用しない</option>
+          <option value="addFirst">キャラ名＞ を先頭に付与する</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
